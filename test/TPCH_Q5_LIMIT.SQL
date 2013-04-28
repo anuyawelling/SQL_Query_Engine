@@ -47,7 +47,7 @@ CREATE TABLE SUPPLIER (
   address string,
   nationkey int,
   phone string,
-  acctbal int,
+  acctbal float,
   comment string
 ) FROM FILE 'supplier.tbl' USING TPCH('supplier');
 
